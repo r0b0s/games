@@ -92,3 +92,102 @@ html {
     font-size: 40px;
   }
   
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+  background: #1a1a1a; /* Dark grey color */
+  padding: 0 0 30px 0;
+  color: #eee;
+  font-size: 14px;
+
+}
+#footer .footer-top {
+  background:  #dbd834; 
+  padding: 60px 0 30px 0;
+}
+#footer .footer-top .footer-info {
+  margin-bottom: 30px;
+}
+#footer .footer-top  h2 {
+    
+  font-size: 34px;
+  margin: 0 0 20px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  font-family: "Audiowide", sans-serif;
+  color: white;
+  font-weight: 400;
+  
+}
+#footer .footer-top  h3 {
+  font-size: 25px;
+  margin: 0 0 20px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  font-family: "Audiowide", sans-serif;
+  color: white;
+  font-weight: 400;
+  
+}
+#footer .footer-top .footer-info p {
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: 'Architects Daughter',sans-serif;
+  color: white;
+}
+
+#footer .footer-top .social-links a {
+    
+  /* display: inline-flex; */
+  justify-content: space-around;
+  align-items: flex-end;
+  border-radius: 50%;
+  font-size: 18px;
+  color: white;
+  margin-right: 4px;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .footer-top .social-links a:hover {
+   
+    background-color:#dbd834;
+    color: black;
+  
+}
+
+
+#footer .copyright {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 20px;
+  color: #dbd834;
+}
+
+#footer .copyright .fa-spin{
+  animation-duration: 25s;
+}
+
+/*--------------------------------------------------------------
+# Back to top button
+-------------------------------------------------------------*/
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 95%;
+  background-image: linear-gradient(to right, rgb(225, 0, 255), rgb(221, 103, 7));
+  
+}
+.btn-warning {
+
+  color: #37db34;
+  background-color:black ;
+  border-color: black;
+}
