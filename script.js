@@ -50,6 +50,25 @@ photos.forEach(photo => photo.addEventListener('click',toggleOpen));
 photos.forEach(photo => photo.addEventListener('transitionend', toggleActive));
 
 
+
+// Get the button and the pop up elements
+  var quiz_btn = document.getElementById("quiz_btn");
+  var popup = document.getElementById("popup_quiz");
+  var close_btn = document.getElementById("close_btn");
+
+// Add a click event listener to the button
+  quiz_btn.addEventListener("click", function () {
+// Show the pop up element
+    popup.style.display = "block";
+  });
+
+// Add a click event listener to the close button
+  close_btn.addEventListener("click", function () {
+// Hide the pop up element
+    popup.style.display = "none";
+  });
+
+
 /**
  * Back to top button
  */
